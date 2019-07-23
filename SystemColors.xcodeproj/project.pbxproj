@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A7B0259222E743110022DAB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0259122E743110022DAB7 /* AppDelegate.swift */; };
 		A7B0259422E743110022DAB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0259322E743110022DAB7 /* SceneDelegate.swift */; };
-		A7B0259622E743110022DAB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0259522E743110022DAB7 /* ViewController.swift */; };
 		A7B0259922E743110022DAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B0259722E743110022DAB7 /* Main.storyboard */; };
 		A7B0259B22E743120022DAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B0259A22E743120022DAB7 /* Assets.xcassets */; };
 		A7B0259E22E743120022DAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B0259C22E743120022DAB7 /* LaunchScreen.storyboard */; };
+		A7B025A622E745020022DAB7 /* SystemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B025A522E745020022DAB7 /* SystemColor.swift */; };
+		A7B025AA22E7469B0022DAB7 /* SystemColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B025A922E7469B0022DAB7 /* SystemColorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7B0258E22E743110022DAB7 /* SystemColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B0259122E743110022DAB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B0259322E743110022DAB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7B0259522E743110022DAB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7B0259822E743110022DAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7B0259A22E743120022DAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B0259D22E743120022DAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B0259F22E743120022DAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B025A522E745020022DAB7 /* SystemColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemColor.swift; sourceTree = "<group>"; };
+		A7B025A922E7469B0022DAB7 /* SystemColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemColorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				A7B0259122E743110022DAB7 /* AppDelegate.swift */,
 				A7B0259322E743110022DAB7 /* SceneDelegate.swift */,
-				A7B0259522E743110022DAB7 /* ViewController.swift */,
 				A7B0259722E743110022DAB7 /* Main.storyboard */,
+				A7B025A922E7469B0022DAB7 /* SystemColorTableViewController.swift */,
+				A7B025A522E745020022DAB7 /* SystemColor.swift */,
 				A7B0259A22E743120022DAB7 /* Assets.xcassets */,
 				A7B0259C22E743120022DAB7 /* LaunchScreen.storyboard */,
 				A7B0259F22E743120022DAB7 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B0259622E743110022DAB7 /* ViewController.swift in Sources */,
 				A7B0259222E743110022DAB7 /* AppDelegate.swift in Sources */,
 				A7B0259422E743110022DAB7 /* SceneDelegate.swift in Sources */,
+				A7B025AA22E7469B0022DAB7 /* SystemColorTableViewController.swift in Sources */,
+				A7B025A622E745020022DAB7 /* SystemColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
