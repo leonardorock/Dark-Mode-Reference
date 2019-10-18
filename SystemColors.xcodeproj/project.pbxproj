@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7256ED523593C5C00EFFC36 /* DarkModeSummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7256ED423593C5C00EFFC36 /* DarkModeSummaryTableViewController.swift */; };
+		A7256ED7235943D400EFFC36 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7256ED6235943D400EFFC36 /* BorderView.swift */; };
+		A7256ED923594FED00EFFC36 /* DynamicColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7256ED823594FED00EFFC36 /* DynamicColorView.swift */; };
+		A7256EDB235953B000EFFC36 /* ElevationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7256EDA235953B000EFFC36 /* ElevationView.swift */; };
 		A7B0259222E743110022DAB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0259122E743110022DAB7 /* AppDelegate.swift */; };
 		A7B0259422E743110022DAB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B0259322E743110022DAB7 /* SceneDelegate.swift */; };
 		A7B0259922E743110022DAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B0259722E743110022DAB7 /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7256ED423593C5C00EFFC36 /* DarkModeSummaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeSummaryTableViewController.swift; sourceTree = "<group>"; };
+		A7256ED6235943D400EFFC36 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		A7256ED823594FED00EFFC36 /* DynamicColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicColorView.swift; sourceTree = "<group>"; };
+		A7256EDA235953B000EFFC36 /* ElevationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationView.swift; sourceTree = "<group>"; };
 		A7B0258E22E743110022DAB7 /* SystemColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B0259122E743110022DAB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B0259322E743110022DAB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7256EDC2359576400EFFC36 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7256ED823594FED00EFFC36 /* DynamicColorView.swift */,
+				A7256ED6235943D400EFFC36 /* BorderView.swift */,
+				A7256EDA235953B000EFFC36 /* ElevationView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		A7256EDD23595F9C00EFFC36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7256ED423593C5C00EFFC36 /* DarkModeSummaryTableViewController.swift */,
+				A7B025A922E7469B0022DAB7 /* SystemColorTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7256EDE23595FA600EFFC36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7B025A522E745020022DAB7 /* SystemColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A7B0258522E743110022DAB7 = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +96,9 @@
 				A7B0259122E743110022DAB7 /* AppDelegate.swift */,
 				A7B0259322E743110022DAB7 /* SceneDelegate.swift */,
 				A7B0259722E743110022DAB7 /* Main.storyboard */,
-				A7B025A922E7469B0022DAB7 /* SystemColorTableViewController.swift */,
-				A7B025A522E745020022DAB7 /* SystemColor.swift */,
+				A7256EDD23595F9C00EFFC36 /* Controllers */,
+				A7256EDC2359576400EFFC36 /* Custom Views */,
+				A7256EDE23595FA600EFFC36 /* Models */,
 				A7B0259A22E743120022DAB7 /* Assets.xcassets */,
 				A7B0259C22E743120022DAB7 /* LaunchScreen.storyboard */,
 				A7B0259F22E743120022DAB7 /* Info.plist */,
@@ -141,10 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7256EDB235953B000EFFC36 /* ElevationView.swift in Sources */,
 				A7B0259222E743110022DAB7 /* AppDelegate.swift in Sources */,
+				A7256ED923594FED00EFFC36 /* DynamicColorView.swift in Sources */,
 				A7B0259422E743110022DAB7 /* SceneDelegate.swift in Sources */,
 				A7B025AA22E7469B0022DAB7 /* SystemColorTableViewController.swift in Sources */,
 				A7B025A622E745020022DAB7 /* SystemColor.swift in Sources */,
+				A7256ED7235943D400EFFC36 /* BorderView.swift in Sources */,
+				A7256ED523593C5C00EFFC36 /* DarkModeSummaryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -49,6 +49,8 @@ final class SystemColorTableViewController: UITableViewController {
         colors.append(SystemColor(name: "Secondary Label", color: .secondaryLabel))
         colors.append(SystemColor(name: "Tertiary Label", color: .tertiaryLabel))
         colors.append(SystemColor(name: "Quaternary Label", color: .quaternaryLabel))
+        colors.append(SystemColor(name: "Placeholder Text", color: .placeholderText))
+        colors.append(SystemColor(name: "Link", color: .link))
         return colors
     }()
     
@@ -93,25 +95,6 @@ final class SystemColorTableViewController: UITableViewController {
         return colors
     }()
     
-    lazy var preferredInterfaceSegmentControl: UISegmentedControl = {
-        let segmentControl = UISegmentedControl(items: ["Light", "Dark"])
-        segmentControl.addTarget(self, action: #selector(preferredInterfaceSegmentControlValueChanged(_:)), for: .valueChanged)
-        segmentControl.selectedSegmentIndex = self.traitCollection.containsTraits(in: UITraitCollection(userInterfaceStyle: .light)) ? 0 : 1
-        return segmentControl
-    }()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        toolbarItems = [UIBarButtonItem(customView: preferredInterfaceSegmentControl)]
-    }
-    
-    // MARK: - Actions
-    
-    @objc func preferredInterfaceSegmentControlValueChanged(_ sender: UISegmentedControl) {
-        navigationController?.overrideUserInterfaceStyle = sender.selectedSegmentIndex == 0 ? .light : .dark
-        tableView.reloadData()
-    }
-
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -130,8 +113,10 @@ final class SystemColorTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier", for: indexPath)
         let systemColor = sections[indexPath.section].colors[indexPath.row]
         if cell.accessoryView == nil {
-            let colorView = UIView(frame: CGRect(origin: .zero, size: CGSize(width: 20, height: 20)))
-            colorView.layer.cornerRadius = 10
+            let colorView = UIView(frame: CGRect(origin: .zero, size: CGSize(width: 24, height: 24)))
+            colorView.layer.cornerRadius = 12
+            colorView.layer.borderColor = UIColor.separator.cgColor
+            colorView.layer.borderWidth = 1
             colorView.clipsToBounds = true
             cell.accessoryView = colorView
         }
