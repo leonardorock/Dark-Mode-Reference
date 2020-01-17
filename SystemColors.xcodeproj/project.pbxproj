@@ -25,7 +25,7 @@
 		A7256ED6235943D400EFFC36 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 		A7256ED823594FED00EFFC36 /* DynamicColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicColorView.swift; sourceTree = "<group>"; };
 		A7256EDA235953B000EFFC36 /* ElevationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationView.swift; sourceTree = "<group>"; };
-		A7B0258E22E743110022DAB7 /* SystemColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B0258E22E743110022DAB7 /* Dark Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B0259122E743110022DAB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B0259322E743110022DAB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7B0259822E743110022DAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		A7B0258F22E743110022DAB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7B0258E22E743110022DAB7 /* SystemColors.app */,
+				A7B0258E22E743110022DAB7 /* Dark Mode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			);
 			name = SystemColors;
 			productName = SystemColors;
-			productReference = A7B0258E22E743110022DAB7 /* SystemColors.app */;
+			productReference = A7B0258E22E743110022DAB7 /* Dark Mode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -336,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leonardo.oliveira.SystemColors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Mode";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leonardo.oliveira.SystemColors;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dark Mode";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

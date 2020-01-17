@@ -11,7 +11,7 @@
         <!--System Colors-->
         <scene sceneID="V4J-Fu-Zv4">
             <objects>
-                <tableViewController id="Pdn-vN-lJj" customClass="SystemColorTableViewController" customModule="SystemColors" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Pdn-vN-lJj" customClass="SystemColorTableViewController" customModule="Dark_Mode" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aaD-fD-iHd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,7 +72,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ar5-ey-Fur" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ar5-ey-Fur" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50.5" width="374" height="48"/>
                                                 <color key="backgroundColor" name="Dynamic Background Color"/>
                                                 <constraints>
@@ -90,7 +90,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-LI-wPx" customClass="DynamicColorView" customModule="SystemColors" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-LI-wPx" customClass="DynamicColorView" customModule="Dark_Mode" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="72.5" width="374" height="48"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <constraints>
@@ -124,7 +124,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ns4-rI-N0z" customClass="ElevationView" customModule="SystemColors" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ns4-rI-N0z" customClass="ElevationView" customModule="Dark_Mode" customModuleProvider="target">
                                 <rect key="frame" x="20" y="148" width="374" height="74.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create custom elevation views that adds depth regardless the system appearance." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqC-2N-r0A">
@@ -183,7 +183,7 @@
         <!--Dark Mode-->
         <scene sceneID="yzQ-rX-tUy">
             <objects>
-                <tableViewController id="MDK-I8-RRK" customClass="DarkModeSummaryTableViewController" customModule="SystemColors" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="MDK-I8-RRK" customClass="DarkModeSummaryTableViewController" customModule="Dark_Mode" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="3Fw-CG-M9e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -465,7 +465,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Mxu-W8-2Lr">
                                                 <rect key="frame" x="16" y="117" width="382" height="155.5"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4IZ-5k-Tyr" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4IZ-5k-Tyr" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="382" height="46.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="System background" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nX-7z-EUm">
@@ -483,7 +483,7 @@
                                                             <constraint firstAttribute="trailingMargin" secondItem="6nX-7z-EUm" secondAttribute="trailing" id="n2C-k1-T8x"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAl-Em-WCE" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAl-Em-WCE" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="54.5" width="382" height="46.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Secondary System Background" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8G8-oU-CS4">
@@ -501,7 +501,7 @@
                                                             <constraint firstAttribute="bottomMargin" secondItem="8G8-oU-CS4" secondAttribute="bottom" constant="16" id="P1x-OL-igf"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="226-ec-qMz" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="226-ec-qMz" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="109" width="382" height="46.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Tertiary System Background" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nob-MR-e99">
@@ -542,7 +542,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GpM-FL-va5">
                                                 <rect key="frame" x="16" y="441.5" width="382" height="155.5"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="12g-hb-ViW" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="12g-hb-ViW" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="382" height="46.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="System Grouped background" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aP-QW-oBW">
@@ -560,7 +560,7 @@
                                                             <constraint firstItem="2aP-QW-oBW" firstAttribute="top" secondItem="12g-hb-ViW" secondAttribute="topMargin" id="yzd-cq-P2y"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4C-9x-HN5" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4C-9x-HN5" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="54.5" width="382" height="46.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Secondary System Grouped Background" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5I-Kt-boG">
@@ -578,7 +578,7 @@
                                                             <constraint firstAttribute="bottomMargin" secondItem="V5I-Kt-boG" secondAttribute="bottom" constant="16" id="hAt-yB-w3q"/>
                                                         </constraints>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PaN-YG-qZp" customClass="BorderView" customModule="SystemColors" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PaN-YG-qZp" customClass="BorderView" customModule="Dark_Mode" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="109" width="382" height="46.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Tertiary System Grouped Background" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoK-w2-zOB">
@@ -631,7 +631,7 @@
     </scenes>
     <resources>
         <namedColor name="Dynamic Background Color">
-            <color red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.25299999117851257" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
